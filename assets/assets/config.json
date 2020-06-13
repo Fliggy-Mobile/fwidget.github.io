@@ -1,0 +1,79 @@
+[
+  {
+    "name": "fsuper",
+    "showName": "FSuper",
+    "author": "CoorChice",
+    "authorHomePage": "https://github.com/chenBingX",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20511252?s=96&v=4",
+    "imgUrl": "https://gw.alicdn.com/tfs/TB1fvI5aKpyVu4jSZFhXXbBpVXa-720-534.png",
+    "desc": "FSuper 支持富文本、圆角、边框、图片、小红点、以及同时设置多达两个子组件，且控制它们的相对位置。",
+    "desc_en": "FSuper supports rich text, rounded corners, borders, pictures, small red dots, and setting up to two sub-components at the same time, and control their relative positions.",
+    "version": "0.1.5"
+  },
+  {
+    "name": "fbutton",
+    "showName": "FButton",
+    "author": "CoorChice",
+    "authorHomePage": "https://github.com/chenBingX",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20511252?s=96&v=4",
+    "imgUrl": "https://gw.alicdn.com/tfs/TB187jvIaL7gK0jSZFBXXXZZpXa-720-534.png",
+    "desc": "FButton 支持圆角、边框、图标、特效、Loading 模式。",
+    "desc_en": "FButton supports rounded corners, borders, icons, special effects, and loading mode.",
+    "version": "1.0.4"
+  },
+  {
+    "name": "fswitch",
+    "showName": "FSwitch",
+    "author": "CoorChice",
+    "authorHomePage": "https://github.com/chenBingX",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20511252?s=96&v=4",
+    "imgUrl": "https://gw.alicdn.com/tfs/TB1il2zIoY1gK0jSZFMXXaWcVXa-720-534.png",
+    "desc": "FSwitch 支持设置提示、滑块装饰、阴影以及良好的交互。",
+    "desc_en": "FSwitch supports setting tips, slider decorations, shadows, and good interaction.",
+    "version": "1.1.2"
+  },
+  {
+    "name": "fradio",
+    "showName": "FRadio",
+    "author": "CoorChice",
+    "authorHomePage": "https://github.com/chenBingX",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20511252?s=96&v=4",
+    "imgUrl": "https://gw.alicdn.com/tfs/TB1_82CIhv1gK0jSZFFXXb0sXXa-720-534.png",
+    "desc": "FRadio 支持优良的交互特效，以及像吃汉堡 \uD83C\uDF54一样简单的多交互状态视图切换构建。你会爱上TA的 ❤。️",
+    "desc_en": "FRadio supports excellent interactive special effects, as well as a simple multi-interactive state view switching construction like eating a hamburger \uD83C\uDF54. You will fall in love with TA ❤.️",
+    "version": "1.0.1"
+  },
+  {
+    "name": "ffloat",
+    "showName": "FFloat",
+    "author": "CoorChice",
+    "authorHomePage": "https://github.com/chenBingX",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20511252?s=96&v=4",
+    "imgUrl": "https://gw.alicdn.com/tfs/TB1h4fDIhD1gK0jSZFyXXciOVXa-720-534.png",
+    "desc": "FFloat 生而优雅，支持精准的位置控制。圆角、边框、渐变、阴影装饰三角？应有尽有 \uD83D\uDE03。",
+    "desc_en": "FFloat is born and elegant, supporting precise position control. Triangles with rounded corners, borders, gradients, shadows? Everything you need \uD83D\uDE03.",
+    "version": "1.0.1"
+  },
+  {
+    "name": "frefresh",
+    "showName": "FRefresh",
+    "author": "CoorChice",
+    "authorHomePage": "https://github.com/chenBingX",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20511252?s=96&v=4",
+    "imgUrl": "https://gw.alicdn.com/tfs/TB1WD2GIhz1gK0jSZSgXXavwpXa-720-534.png",
+    "desc": "FRefresh 虽前所未有的简易，但效果却令人惊叹不已。同时支持配置刷新、加载元素。完备的控制器让你帮助你掌控整个动态过程。",
+    "desc_en": "Although FRefresh has never been easier, the effect is amazing. It also supports configuration refresh and loading elements. The complete controller allows you to help you control the entire dynamic process.",
+    "version": "1.1.0"
+  },
+  {
+    "name": "fdottedline",
+    "showName": "FDottedLine",
+    "author": "CoorChice",
+    "authorHomePage": "https://github.com/chenBingX",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20511252?s=96&v=4",
+    "imgUrl": "https://gw.alicdn.com/tfs/TB1Db3MI7L0gK0jSZFtXXXQCXXa-720-534.png",
+    "desc": "FDottedLine 让你用最简单的方式来创建虚线视图吧 \uD83D\uDC40 ！",
+    "desc_en": "FDottedLine lets you create the dashed view in the simplest way \\uD83D\\uDC40!",
+    "version": "1.0.0"
+  }
+]
