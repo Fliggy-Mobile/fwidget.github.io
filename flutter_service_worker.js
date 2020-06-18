@@ -3,14 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "index.html": "ec6ded3d7d150ed1595ac231d9055418",
-"/": "ec6ded3d7d150ed1595ac231d9055418",
-"main.dart.js": "86e583b0b2069dbd16d35659c3d62f16",
+  "index.html": "06a90d91725dd210172d42e89e27e995",
+"/": "06a90d91725dd210172d42e89e27e995",
+"main.dart.js": "b5643f647e5d7adf7dc000e4ae38e4b8",
 "favicon.png": "f4e1f167f0991fc572ebb9629754ec04",
 "icons/Icon-192.png": "7b608fd472dfc29e4073cab4a7b08121",
 "icons/Icon-512.png": "04e592f036ebd56f7248a7fd9f0d8f68",
 "manifest.json": "712c736b5c20f40d5787cc05f73c9226",
-"assets/AssetManifest.json": "3f24055c7b62357c0bc6376e6e775d12",
+"assets/AssetManifest.json": "9af91db4171c9de3f6ae35470498dce7",
 "assets/NOTICES": "0fc4fff0da3a1682b18e23c4de07f7cb",
 "assets/FontManifest.json": "ffef466a50fbc9ba6a16887682586d0d",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
@@ -26,7 +26,7 @@ const RESOURCES = {
 "assets/assets/emoji_3.png": "85ebe88eb1c729ea01684c7b42cbe24d",
 "assets/assets/icon_refresh3.gif": "54a9f1714e1304e36fea548bbbe5d458",
 "assets/assets/emoji_2.png": "d99ef32c0d3789d5dc453ebbafa2e065",
-"assets/assets/config.json": "8d0be9feacf954c96e1f3f7cd872358a",
+"assets/assets/config.json": "7162785166ad8dfeb493463b95ae1be1",
 "assets/assets/icon_color.png": "2f541a92a79d6d2bff38f01d522b8e6c",
 "assets/assets/icon_logo.png": "71b12fae3486746a845dffc31ed88106",
 "assets/assets/img_screen_1.png": "dbf9e444cd9b98031bb2852a188f501a",
@@ -40,11 +40,13 @@ const RESOURCES = {
 "assets/assets/doc/fradio_README.md": "528e0fb68b4ac77f62b1ed0059aaddc2",
 "assets/assets/doc/fdottedline_README_CN.md": "8a14367ca63698a50d5d922da8267e52",
 "assets/assets/doc/fswitch_README_CN.md": "d04f0bc0f8660cd9111824028eaf5230",
+"assets/assets/doc/fsearch_README.md": "85e782daeb2e3e98eae67e0ec988f0c2",
 "assets/assets/doc/fsuper_README.md": "150c3b21c5632f8747310690402f1045",
 "assets/assets/doc/fdottedline_README.md": "fbd6e20f947c84936bfdd29787107dd1",
 "assets/assets/doc/fswitch_README.md": "2b8c4310e4bf1e43c5db2efce429c06f",
 "assets/assets/doc/fradio_README_CN.md": "d2f32400203b5f5a29c794d620a3d9c5",
 "assets/assets/doc/fbutton_README.md": "d90dbdff048058a02e74518d176ffdbe",
+"assets/assets/doc/fsearch_README_CN.md": "7615f15546fc6f4d05ae117af7a16f43",
 "assets/assets/doc/fbutton_README_CN.md": "138a4ef25d553f46074862c050ac1ed4",
 "assets/assets/doc/ffloat_README.md": "c30a7b9d5e221013cd527005374c0d15",
 "assets/assets/doc/frefresh_README.md": "857834021eb98db60243afb2bdda1072",
@@ -60,7 +62,7 @@ const CORE = [
   "/",
 "main.dart.js",
 "index.html",
-"assets/LICENSE",
+"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 
@@ -189,8 +191,8 @@ async function downloadOffline() {
   }
   for (var resourceKey in Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
-      resources.add(resourceKey);
+      resources.push(resourceKey);
     }
   }
-  return Cache.addAll(resources);
+  return contentCache.addAll(resources);
 }
