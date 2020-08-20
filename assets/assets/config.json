@@ -108,5 +108,16 @@
     "desc": "轻松创建和管理 Loading，支持全局自定义和单次自定义，支持定时消失。",
     "desc_en": "Easily create and manage Loading, support global customization and one-time customization, support timing disappear.",
     "version": "1.0.2"
+  },
+  {
+    "name": "fbroadcast",
+    "showName": "FBroadcast",
+    "author": "CoorChice",
+    "authorHomePage": "https://github.com/chenBingX",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20511252?s=96&v=4",
+    "imgUrl": "https://gw.alicdn.com/tfs/TB1x36zdyDsXe8jSZR0XXXK6FXa-720-534.png",
+    "desc": "FBroadcast 帮助开发者在应用内建立一套高效的广播系统，支持粘性广播。",
+    "desc_en": "FBroadcast helps developer build an efficient broadcast system in the application and supports sticky broadcast",
+    "version": "1.0.0"
   }
 ]
